@@ -9,8 +9,9 @@ const HeroImage = () => {
           <img className="intro-img" src={bg} alt="Background Images"/>  
         </div>
         <div className="content">
-        <h1 className="h11">I'M A <spam className="spam">React JS Developer</spam></h1>
-            <div>
+        <p>I'M A FREELANCER</p>
+        <h1>React JS Developer</h1>
+            <div >
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contactUs" className="btn btn-light">Contact Us</Link>
             </div>
