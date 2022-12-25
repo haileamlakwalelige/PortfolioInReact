@@ -23,6 +23,11 @@ h1{
     font-weight:500;
    
 }
+.nav-menu li a:hover{
+    color:#f9004d;
+    transform:translate(1s);
+    font-family:'Courier New', Courier, monospace;
+}
 .hamburger{
     display:none;
 }

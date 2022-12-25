@@ -46,8 +46,16 @@
 
 .content .btn{
    margin:1rem 0.2rem; 
-   
-   
+
+}
+.btn:hover {
+    color: red;
+    background-color:#000;
+    font-style:italic;
+    font-family:'Courier New', Courier, monospace;
+    font-size:30px;
+    border-radius:20px;
+    text-shadow: #f9004d 10px;
 }
 @media screen and (max-width:640px){
     .hero .content h1{
