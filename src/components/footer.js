@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import "./footer.css";
 import {
     FaFacebook,
@@ -32,7 +33,7 @@ const Footer = () => {
                               color: "purple",
                        marginRight: "2rem" }} 
                        className="what"
-                      />251-9910101010</h4>
+                      />251-939100302</h4>
                   </div>
                   <div className="email">
                       <h4 style={{ display: "inline" }}>
@@ -41,13 +42,13 @@ const Footer = () => {
                                   color: "purple",
                        marginRight: "2rem" }} 
                        className="what"
-                      />haileamlakwaleligne@gmail.com</h4>
+                      />haileamlakwaleligne3910@gmail.com</h4>
                   </div>
               </div>
               <div  className="right">
                  <p>About My self</p>
                   <p className="second-child">This is me <span> Haileamlak Waleligne.</span> <br/>
-                 Web Developer and Web Designer.<br/>
+                 Web Developer and Web Designer.<br/><br/>
                   I enjoy to work as a full-stack Developer.<br/>
                  But I am really good at Front-end Development.</p>
                  <div className="social">
@@ -58,25 +59,29 @@ const Footer = () => {
                           }} 
                           className="what"
                           />
-                       <FaLinkedin size={35}
+                      <a  href="https://www.linkedin.com/in/haileamlak-waleligne-95b716231/"> <FaLinkedin size={35}
                           style={{
                               color: "purple",
                               marginRight: "1rem"
                           }}
-                          className="what" />
+                          className="what" 
+                            
+                          /></a>
                        <FaInstagram size={35}
                           style={{
                               color: "purple",
                               marginRight: "1rem"
                           }}
                           className="what" />
-                       <FaTelegram size={35}
+                       
+                            <a   href="https://t.me/King_Haila"><FaTelegram size={35}
                           style={{
                               color: "purple",
                               marginRight: "1rem"
                           }}
                           className="what"
-                          />
+                         /></a>
+                         
                  </div>
               </div>
     </div>

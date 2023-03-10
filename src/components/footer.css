@@ -71,10 +71,15 @@ span{
 
 @media screen and(max-width:640px) {
     .footer-container {
-        grid-template-columns: 1fr;
+        display:block;
+        width:80%;
+        padding:1rem;
+        margin:20px;
+        
     }
     .footer{
-        grid-template-columns: 1fr;
+        
+        display:block;
     }
 
     .what {

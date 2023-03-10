@@ -10,15 +10,17 @@
     height: 90px;  
 }
 h1{
-    padding-right: 700px;
+    padding-right: 750px;
     color:#f9004d;
 }
 .nav-menu{
   display:flex; 
+  margin-right:30px;
 }
 .nav-menu li{
     padding:0 1rem;
     padding-right:20px;
+
 
 }
 .nav-menu li a{
@@ -29,8 +31,6 @@ h1{
 }
 .nav-menu li a:hover{
     color:#f9004d;
-    transform:translate(1s);
-    font-family:'Courier New', Courier, monospace;
 }
 .hamburger{
     display:none;
@@ -49,6 +49,7 @@ h1{
         left:-100%;
         z-index:-3;
         transition:0.3s;
+        margin-right:auto;
 
     }
     .nav-menu.active{

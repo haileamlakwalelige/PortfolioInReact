@@ -10,7 +10,7 @@ const HeroImage = () => {
         </div>
         <div className="content">
         <p>I'M A FREELANCER</p>
-        <h1>React JS Developer</h1>
+        <h1><span>React JS</span> Developer</h1>
             <div >
                 <Link to="/project" className="btn">Projects</Link>
                 <Link to="/contactUs" className="btn btn-light">Contact Us</Link>

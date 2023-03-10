@@ -1,6 +1,8 @@
 import "./HeroImage.css";
 import React, { Component } from 'react'
+import './ProjHero.css'
 import R from '../images/R.jpg';
+
 //import { Link } from "react-router-dom";
 class ProjHero extends Component{
   render(){
@@ -10,8 +12,9 @@ class ProjHero extends Component{
         <img className="intro-img" src={R} alt="Background Images" />
       </div>
       <div className="content">
-        <h1>{this.props.heading}</h1>
+     <h1>{this.props.heading}</h1>
         <p>{this.props.text}</p>
+        
       </div>
      
     </div>
