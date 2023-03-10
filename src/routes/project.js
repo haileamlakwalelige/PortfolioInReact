@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/footer';
 import Navbar from '../components/navbar';
+import Price from '../components/price';
 import ProjHero from '../components/ProjHero';
 
 const Project = () => {
@@ -9,6 +10,7 @@ const Project = () => {
     <Navbar />
     <ProjHero heading="PROJECTS." text="some of my
     most recent works" />
+    <Price />
     <Footer />
     </div>
   )
